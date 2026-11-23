@@ -1,0 +1,30 @@
+# Secrets and account data
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*
+accounts.dat
+servers.dat
+*.srv
+
+# Reports, logs, trade history
+logs/
+*.log
+reports/
+*.htm
+*.html
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MetaTrader builds
+*.ex5
+*.ex4
+
+.claude/settings.local.json
